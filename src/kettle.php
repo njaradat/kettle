@@ -65,7 +65,7 @@ class ORM
     protected $_table_name;
 
     // HashKey
-    protected $_hash_key;c
+    protected $_hash_key;
 
     // RangeKey
     protected $_range_key;

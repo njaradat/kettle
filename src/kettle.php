@@ -65,7 +65,7 @@ class ORM
     protected $_table_name;
 
     // HashKey
-    protected $_hash_key;
+    protected $_hash_key;c
 
     // RangeKey
     protected $_range_key;
@@ -1063,7 +1063,7 @@ class ORM
     //-----------------------------------------------
     // PRIVATE METHODS
     //-----------------------------------------------
-    protected function __construct()
+    public function __construct()
     {
 
     }

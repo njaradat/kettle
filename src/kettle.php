@@ -74,10 +74,10 @@ class ORM
     protected $_connection_name = self::DEFAULT_CONNECTION;
 
     // GlobalSecondaryIndex
-    protected $_global_secondary_indexes = [];
+    protected $_global_secondary_indexes = array();
 
     // LocalSecondaryIndex
-    protected $_local_secondary_indexes = [];
+    protected $_local_secondary_indexes = array();
 
     /**
      * data schema
